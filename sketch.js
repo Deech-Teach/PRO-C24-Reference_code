@@ -7,6 +7,25 @@ var engine, world, backgroundImg;
 var canvas, angle, tower, ground, cannon;
 var balls = [];
 
+var arr= [ 1,2,3];
+console.log(arr);
+
+var arr2= [ "name",1,true];
+console.log(arr2);
+
+var arr3= [ [1,2],[3,4],[5,6]];
+console.log(arr3);
+
+console.log(arr3[0]);
+
+console.log(arr3[0][1]);
+
+arr3.push('my name');
+console.log(arr3);
+
+arr3.pop();
+console.log(arr3);
+
 function preload() {
   backgroundImg = loadImage("./assets/background.gif");
   towerImage = loadImage("./assets/tower.png");
